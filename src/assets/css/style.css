@@ -72,12 +72,11 @@ h6 {
 #header {
   position: fixed;
   top: 0;
-  left: 0;
+  left: -300px; /* Start off-screen */
   bottom: 0;
   width: 300px;
-  transition: all ease-in-out 0.5s;
+  transition: left ease-in-out 0.5s; /* Adjusted transition speed */
   z-index: 9997;
-  transition: all 0.5s;
   padding: 0 15px;
   background: #040b14;
   overflow-y: auto;
@@ -128,18 +127,18 @@ h6 {
 }
 
 #main {
-  margin-left: 300px;
+  margin-left: 0; /* Adjusted to start from the left */
 }
 
 .container,
 .container-fluid {
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 12px; /* Adjusted padding */
+  padding-right: 12px; /* Adjusted padding */
 }
 
 @media (max-width: 1199px) {
   #header {
-    left: -300px;
+    left: 0; /* Adjusted to start from the left */
   }
 
   #main {
@@ -152,6 +151,7 @@ h6 {
     padding-right: 12px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -241,7 +241,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("/public/img/uk3.jpeg") top center;
   background-size: cover;
 }
 
@@ -262,9 +262,16 @@ h6 {
   min-width: 300px;
 }
 
-#hero h1,h2 {
+#hero h1 {
   margin: 0 0 10px 0;
   font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+#hero h2 {
+  margin: 0 0 10px 0;
+  font-size: 24px;
   font-weight: 700;
   line-height: 56px;
   color: #fff;

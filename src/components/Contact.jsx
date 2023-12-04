@@ -5,7 +5,7 @@ const Contact = () => {
         <div className="section-title">
           <h2>Contact</h2>
           <p>
-          If you have some request, feel free to contact me.
+          Silahkan Hubungi jika tertarik.
           </p>
         </div>
         <div className="row" data-aos="fade-in">
@@ -19,15 +19,15 @@ const Contact = () => {
               <div className="email">
                 <i className="bi bi-envelope" />
                 <h4>Email:</h4>
-                <p>devanprabowo1@gmail.com</p>
+                <p>noris.stiven18@gmail.com</p>
               </div>
               <div className="phone">
                 <i className="bi bi-phone" />
                 <h4>Call:</h4>
-                <p>+6285256187322</p>
+                <p>+6281247817616</p>
               </div>
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2021.1609505407337!2d125.03415361375986!3d1.3911999409952167!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sid!4v1700755335044!5m2!1sen!2sid"
+                src="https://maps.app.goo.gl/zrt9VABRB5auBw2n7"
                 frameBorder={0}
                 style={{ border: 0, width: "100%", height: 290 }}
                 allowFullScreen

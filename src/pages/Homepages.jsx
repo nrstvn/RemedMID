@@ -1,4 +1,3 @@
-import Header from "../components/Header";
 import About from "../components/About";
 import Contact from "../components/Contact";
 import Hero from "../components/Hero";
@@ -13,7 +12,6 @@ const Homepages = () => {
       <About />
       <Resume />
       <Portofolio />
-      <Header />
       <Service />
       <Contact />
       <Footer />

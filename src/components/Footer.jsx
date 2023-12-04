@@ -3,9 +3,9 @@ const Footer = () => {
     <footer id="footer">
       <div className="container">
         <div className="copyright">
-          © Copyright{" "}
+          CV Norris Stiven{" "}
           <strong>
-            <span>iPortfolio</span>
+            <span></span>
           </strong>
         </div>
         <div className="credits">

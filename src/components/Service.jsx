@@ -56,48 +56,6 @@ const Service = () => {
               data-aos="fade-up"
               data-aos-delay={300}
             >
-              {/* <div className="icon">
-                <i className="bi bi-binoculars" />
-              </div> */}
-              {/* <h4 className="title">
-                <a href>Magni Dolores</a>
-              </h4>
-              <p className="description">
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa
-                qui officia deserunt mollit anim id est laborum
-              </p> */}
-            </div>
-            <div
-              className="col-lg-4 col-md-6 icon-box"
-              data-aos="fade-up"
-              data-aos-delay={400}
-            >
-              {/* <div className="icon">
-                <i className="bi bi-brightness-high" />
-              </div> */}
-              {/* <h4 className="title">
-                <a href>Nemo Enim</a>
-              </h4>
-              <p className="description">
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque
-              </p> */}
-            </div>
-            <div
-              className="col-lg-4 col-md-6 icon-box"
-              data-aos="fade-up"
-              data-aos-delay={500}
-            >
-              {/* <div className="icon">
-                <i className="bi bi-calendar4-week" />
-              </div> */}
-              {/* <h4 className="title">
-                <a href>Eiusmod Tempor</a>
-              </h4>
-              <p className="description">
-                Et harum quidem rerum facilis est et expedita distinctio. Nam
-                libero tempore, cum soluta nobis est eligendi
-              </p> */}
             </div>
           </div>
         </div>

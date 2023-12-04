@@ -7,9 +7,9 @@ const Hero = () => {
     >
       <div className="hero-container" data-aos="fade-in">
         <h1>Hello!</h1>
-        <h2>I'm Devan Christovano Prabowo</h2>
+        <h2>Saya Norris stiven mosses Dompas</h2>
         <p>
-          {" I'm Currently Studying At UNKLAB University "}
+          {" Saya adalah Mahasiswa di Universitas Klabat "}
           <span
             className="typed"
             data-typed-items="Designer, Developer, Freelancer, Photographer"
